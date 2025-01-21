@@ -4,41 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App Sanaz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Monday 23:28, fog
+            <br />
+            Humidity: 98%, Wind: 1.03km/h
+          </p>
+        </div>
+        <div>🌧️12°c</div>
+      </main>
+      <footer>
         <p>
-          Monday 23:28, fog
-          <br />
-          Humidity: 98%, Wind: 1.03km/h
+          This project was coded by
+          <a href="https://sanazreinhardt.webflow.io/" target="_blank"
+            >Sanaz Reinhardt</a
+          >, is
+          <a
+            href="https://github.com/Sanaz-RH/weather-app-sanaz"
+            target="_blank"
+            >open-sourced on GitHub</a
+          >
+          and
+          <a href="https://sanaz-weather-app.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          >
         </p>
-      </div>
-      <div>🌧️12°c</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://sanazreinhardt.webflow.io/" target="_blank"
-          >Sanaz Reinhardt</a
-        >, is
-        <a href="https://github.com/Sanaz-RH/weather-app-sanaz" target="_blank"
-          >open-sourced on GitHub</a
-        >
-        and
-        <a href="https://sanaz-weather-app.netlify.app/" target="_blank"
-          >hosted on Netlify</a
-        >
-      </p>
-    </footer>
+      </footer>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
