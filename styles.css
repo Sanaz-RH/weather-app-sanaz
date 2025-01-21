@@ -22,12 +22,12 @@ a {
 }
 
 main {
-  padding: 30px 0;
+  padding: 48px 0 32px 0;
 }
 
 .weather-app {
   background-color: white;
-  max-width: 650px;
+  max-width: 600px;
   margin: 48px auto;
   padding: 40px;
   border-radius: 16px;
@@ -71,7 +71,7 @@ main {
 
 .weather-details strong {
   color: #7907b7;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .weather-temperature-container {
@@ -84,7 +84,7 @@ main {
 }
 
 .weather-temperature {
-  font-size: 88px;
+  font-size: 84px;
   font-weight: 600;
   margin-left: 8px;
 }
