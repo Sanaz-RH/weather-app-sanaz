@@ -23,7 +23,7 @@ a {
 }
 
 main {
-  padding: 48px 0 32px 0;
+  padding: 48px 0 40px 0;
 }
 
 .weather-app {
@@ -32,7 +32,7 @@ main {
   margin: 48px auto;
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(3, 103, 90, 0.122);
 }
 
 .search-input {
@@ -71,7 +71,7 @@ main {
 }
 
 .weather-details strong {
-  color: #7907b7;
+  color: #9438d1;
   font-weight: 600;
 }
 
@@ -80,17 +80,17 @@ main {
 }
 
 .weather-icon {
-  font-size: 48px;
-  margin-top: 32px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 .weather-temperature {
   font-size: 80px;
   font-weight: 600;
-  margin-left: 10px;
+  margin: 0 10px;
 }
 
 .weather-unit {
-  font-size: 24px;
-  margin-top: 24px;
+  font-size: 28px;
+  margin-top: 14px;
 }
