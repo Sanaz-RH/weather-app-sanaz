@@ -52,7 +52,35 @@ function handleSearch(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+        <div class="weather-forecast-day">
+            <div class="weather-forecast-date">${day}</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                <strong>9°</strong>
+                </div>
+                <div class="weather-forecast-temperature">
+                5°
+                </div>
+            </div>
+        </div>
+        `;
+  });
+
+  let forecast = document.querySelector("#forecast");
+  forecast.innerHTML = forecastHtml;
+}
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("click", handleSearch);
 
 searchCity("Zurich");
+displayForecast();
